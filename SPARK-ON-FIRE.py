@@ -116,7 +116,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Fuckbd71/Approval.txt/blob/main/1.txt').text
+    httpCaht = requests.get('https://github.com/Fuckbd71/APPROVE.txt/tree/main/BD.txt').text
     if id in httpCaht:
       Main()
     else:
